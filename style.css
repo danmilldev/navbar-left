@@ -1,0 +1,67 @@
+* {
+    min-width: 0;
+    min-height: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.site-layout {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.navbar {
+    position: fixed;
+    height: 100vh;
+    width: 20vw;
+    background-color: rgb(17, 17, 19);
+    color: white;
+}
+
+.navbar-logo {
+    text-align: center;
+    padding: 1rem;
+}
+
+.navbar-list {
+    list-style: none;
+}
+
+.navbar-item {
+    padding: 0.5rem;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.navbar-item:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.active-page {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.card-list {
+    display: flex;
+    flex-direction: column;
+    background-color: #E6E8EBFF;
+}
+
+.card {
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: gray;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
