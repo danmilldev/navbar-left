@@ -37,6 +37,12 @@
     flex-grow: 1;
     padding: 1vh;
     color: white;
+    margin: 0.2vh 0 0.2vh 0;
+}
+
+.active-page {
+    background-color: white;
+    color: black;
 }
 
 .navlink:hover {
